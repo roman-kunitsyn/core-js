@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible"
+              content="ie=edge">
+        <title>Document</title>
+        <style>
+            .movement {
+                position: absolute;
+                height: 200px;
+                width: 200px;
+                border: 1px solid green;
+                top: 50px;
+            }
+
+            .point {
+                position: absolute;
+                height: 5px;
+                width: 5px;
+                top: 0px;
+                right: 0px;
+                border: 1px solid black;
+                border-radius: 50%;
+                background: red;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <button>click</button>
+        <input type="text">
+        <h1 class="position"></h1>
+        <h1 class="input-value"></h1>
+        <h1 class="counter-click"></h1>
+        <canvas name="canvas"
+                width="200"
+                height="200"></canvas>
+        <div class="movement">
+            <div class="point"></div>
+        </div>
+        <script src="/node_modules/rxjs/bundles/rxjs.umd.js"></script>
+        <script src="/index.js"></script>
+        <!-- <script src="/random-sequence.js"></script> -->
+    </body>
+
+</html>
