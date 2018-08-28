@@ -1,0 +1,39 @@
+.app-root {
+  background: red;
+}
+
+.photo {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid black;
+  margin: 0px;
+  padding: 0px;
+}
+.photo.active {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: green;
+  border: 3px solid blue;
+  margin: 0px;
+  padding: 0px;
+}
+
+.row {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  background: pink;
+}
+
+.row.active {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  background: purple;
+}
